@@ -1,0 +1,228 @@
+*{
+margin: 0;
+padding: 0;
+width: 100%;
+}
+/* .center{
+    display: flex;
+    flex-wrap: wrap;
+  
+} */
+
+
+.navbar{
+   background-color: black;
+   color: white;
+   font-size: 20px;
+   display: flex;
+   text-align: center;
+   align-items: center;
+   justify-content: space-around;
+   list-style: none;
+   height: 70px;
+   font-weight: 900;
+   cursor: pointer;
+display: none;
+
+}
+.navbar p{
+    color:aqua;
+}
+
+/* ul{
+    display: flex;
+} */
+
+/* ul h1{
+    color: aqua;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: ;
+} */
+
+
+.container{
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width:100% ;
+    height: auto;
+   background-image: url('https://wallpapercave.com/dwp2x/TeItEwg.jpg');
+    /* background-image: url('https://img.freepik.com/free-vector/creative-geometric-design-space_53876-89781.jpg?w=996&t=st=1701321279~exp=1701321879~hmac=d1fe137d454049f5e029a77d501d99419570de0b451098def8ebfadcc7313133'); */
+    
+    /* background-image: url('https://img.freepik.com/free-vector/gradient-black-background-with-cubes_23-2149138432.jpg?w=996&t=st=1701526268~exp=1701526868~hmac=47c4a6ef611fbc73a2176829b0cc51000e6b215e2a16d80ec89b38a770db3beb'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    /* background-color: rgb(92, 49, 49); */
+}
+.box1{
+    /* height: 400px; */
+    width: 400px;
+    /* background-color: chartreuse; */
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+.box2{
+    height: 500px;
+    width: 55vw;
+    /* background-color: blueviolet; */
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./1\ copy\ \(1\).png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* border: 2px solid red; */
+    /* display: none; */
+}
+.box1 h1{
+    color:aqua;
+    font-weight: 900;
+    font-style: italic;
+    /* text-shadow: 0px 0px 10px lightgray; */
+    font-size: 50px;
+ 
+}
+.box1 p{
+    color: rgb(0, 255, 55);
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.download-btn{
+    text-decoration: none;
+    /* border: 2px solid rebeccapurple; */
+    background-color: rgb(33, 136, 56);
+    color: white;
+    padding: 10px 20px;
+    height: 10px;
+    width: 50%;
+    border-radius: 9px;
+    font-size: 15px;
+    margin: 30px 0px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 20px 60px;
+    height: 10px;
+    width: 50%;
+    border-radius: 9px;
+    font-size: 20px;
+
+}
+
+.about h1{
+
+    background-color:rgb(92, 92, 92);
+    color: aqua;
+    text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 30px;
+}
+.container2{
+    /* border: 2px solid red; */
+    /* height: 400px; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.container2 .div1{
+    max-width: 800px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+    margin: 50px;
+   
+    box-shadow: 2px 2px 10px lightgray;
+  
+}
+
+.div1 h2{
+    margin: 10px 0px;
+}
+.div1 p{
+    font-size: 20px;
+    text-align: center;
+    
+}
+.skills{
+  /* border: 2px solid black; */
+    color: black;
+}
+.skills ul{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+  
+   
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+.skills li{
+    /* border: 2px solid red; */
+    /* margin: 10px; */
+    background-color: rgb(51, 51, 51);
+    width: 10%;
+    color: white;
+    font-size: 16px;
+    padding: 8px 12px;
+    margin: 0px 2px;
+    border-radius: 9px;
+    text-align: center;
+   
+}
+
+
+
+@media only screen and (max-width: 655px) {
+  .skills li{
+    width: 50%;
+    margin: 2px 0px;
+  }
+
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    .skills li{
+        width: 50%;
+        margin: 2px 0px;
+      }
+    .box2{
+        height: 50vh;
+        width: 47vw;
+    }
+    }
+
+    @media only screen and (max-width: 767px) {
+   .div1{
+    margin: 50px;
+    border-radius: 9px;
+   }
+        .box2{
+            height: 40vh;
+            width: 100vw;
+        }
+        }
+    
