@@ -16,6 +16,7 @@
   align-items: center;
   justify-content: space-between;
   list-style: none;
+  display:none;
 }
 .navbar li {
   cursor: pointer;
