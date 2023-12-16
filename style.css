@@ -212,7 +212,30 @@
   }
  
 }
-
+.project{
+  height: auto;
+  width: 100%;
+  margin: 10px;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-evenly; */
+}
+.project h1{
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 10px 0px;
+}
+.project .projectbox{
+  height: 100%;
+  width: 100%;
+  margin: 10px 0px;
+  /* border: 2px solid red; */
+}
+.project .projectbox iframe{
+height: 100%;
+width: 100%;
+}
 
 
 @media only screen and (min-width: 374px) and (max-width: 423px) {
