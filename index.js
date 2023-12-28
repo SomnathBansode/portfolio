@@ -1,7 +1,7 @@
 var container2=document.querySelector(".container2");
 
 var container3=document.querySelector(".projectdemo");
-// container3.style.backgroundColor="black";
+
 
 
 container2.addEventListener("mouseover",function(){
