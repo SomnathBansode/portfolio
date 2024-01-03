@@ -158,3 +158,69 @@
 }
 
 }
+.contactcontainer{
+    height: 500px;
+    width: 100%;
+    background-color:rgb(30, 41, 59);
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  
+}
+.contactcontainer h1{
+    color: aqua;
+}
+.circle{
+    height: 250px;
+    width: 250px;
+  box-shadow: 0px 0px 10px currentColor;
+    border-radius: 9px;
+    background-image:url('./image1.jpg');
+    background-position: top;
+    background-size: cover;
+    margin: 10px 0px;
+}
+.mediaicon{
+    width: 100%;
+    /* max-width:100%; */
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.icons{
+    /* border: 2px solid red; */
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.icons img{
+    width: 50px;
+    height: 100%;
+
+    background-color: white;
+    border-radius: 13px;
+    /* margin: 10px 0px; */
+}
+.icons img:hover{
+    background-color: powderblue;
+    box-shadow: 0px 0px 1px white;
+}
+
+@media only screen and (max-width: 426px){
+.icons{
+    width: 100%;
+    justify-content: space-evenly;
+}
+}
