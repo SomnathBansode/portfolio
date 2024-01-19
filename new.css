@@ -223,4 +223,14 @@
     width: 100%;
     justify-content: space-evenly;
 }
+    .circle {
+    height: 330px;
+    width: 250px;
+    box-shadow: 0px 0px 10px darkslateblue;
+    border-radius: 9px;
+    background-image: url(./IMG_6485.JPG);
+    background-position: center;
+    background-size: cover;
+    margin: 5px 0px;
+}
 }
