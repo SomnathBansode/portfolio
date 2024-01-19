@@ -226,7 +226,7 @@
     .circle {
     height: 330px;
     width: 250px;
-    box-shadow: 0px 0px 10px darkslateblue;
+    box-shadow: 0px 0px 10px currentColor;
     border-radius: 9px;
     background-image: url(./IMG_6485.JPG);
     background-position: center;
